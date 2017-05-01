@@ -1,0 +1,92 @@
+@media screen and (min-width:640px) and (max-width:960px) {
+    .mobile {
+        width: 640px;
+        height: 960px;
+        border-radius: 50px;
+        border: 1px solid black;
+        margin: auto;
+        position: absolute;
+        background-color: black;
+        overflow: auto;
+    }
+    .screen {
+        width: 414px;
+        height: 736px;
+        border: 1px solid red;
+        position: relative;
+        top: 90px;
+        background-color: white;
+        margin: auto;
+    }
+    .home {
+        width: 80px;
+        height: 80px;
+        bottom: 20px;
+        left: 280px;
+        background-color: white;
+        border-radius: 40px;
+        position: absolute;
+    }
+    .receptor {
+        width: 80px;
+        height: 10px;
+        background-color: white;
+        top: 45px;
+        position: relative;
+        margin: auto;
+    }
+    .camera {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        top: 45px;
+        left: 250px;
+        position: absolute;
+        border-radius: 5px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:961px) and (max-width:1366px) {
+    .mobile {
+        width: 1024px;
+        height: 1160px;
+        border-radius: 50px;
+        border: 1px solid black;
+        margin: auto;
+        position: absolute;
+        background-color: black;
+        overflow: auto;
+    }
+    .screen {
+        width: 768px;
+        height: 959px;
+        border: 1px solid red;
+        position: relative;
+        top: 90px;
+        background-color: white;
+        margin: auto;
+    }
+    .home {
+        width: 80px;
+        height: 80px;
+        bottom: 15px;
+        left: 472px;
+        background-color: white;
+        border-radius: 40px;
+        position: absolute;
+    }
+    .receptor {
+        display: none
+    }
+    .camera {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        top: 45px;
+        left: 507px;
+        position: absolute;
+        border-radius: 5px;
+        margin: auto;
+    }
+}
