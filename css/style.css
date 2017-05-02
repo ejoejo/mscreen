@@ -52,7 +52,7 @@
     }
 }
 
-@media screen and (min-width:961px) and (max-width:1366px) {
+@media screen and (min-width:961px) {
     .mobile {
         width: 1024px;
         height: 1160px;
